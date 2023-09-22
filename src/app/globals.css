@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radial-gradient {
+  filter: blur(150px);
+  opacity: 0.2800000011920929;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000 !important;
+    margin-top: -70px !important;
+    margin-right: 10px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: black !important; /* Ganti dengan warna yang Anda inginkan */
+  width: 69.57px !important;
+  height: 7.91px !important;
+  border-radius: 8px !important;
+}
+
+/* Gaya CSS untuk bullet pagination aktif */
+.swiper-pagination-bullet-active {
+  background-color: #4E7270 !important; /* Ganti dengan warna yang Anda inginkan */
+  width: 69.57px !important;
+  height: 7.91px !important;
+  border-radius: 8px !important;
+}
